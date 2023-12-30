@@ -1,0 +1,24 @@
+{
+    "name": "troglodyte-dice/tailwind",
+    "description": "Opinionated package to install and initiate tailwind css on a Laravel project",
+    "type": "library",
+    "license": "UNLICENSE",
+    "autoload": {
+        "psr-4": {
+            "TroglodyteDice\\Tailwind\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Starikov",
+            "email": "ruslan@beef-burger.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "laravel/framework": "^10.0"
+    }
+}
