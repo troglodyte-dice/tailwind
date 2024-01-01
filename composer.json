@@ -2,6 +2,13 @@
     "name": "troglodyte-dice/tailwind",
     "description": "Opinionated package to install and initiate tailwind css on a Laravel project",
     "type": "library",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TroglodyteDice\\Tailwind\\TailwindServiceProvider"
+            ]
+        }
+    },
     "license": "UNLICENSE",
     "autoload": {
         "psr-4": {
